@@ -1,0 +1,119 @@
+body{
+    background: #F3F5FC;
+}
+
+.container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.logo{
+    width: 200px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.texto{
+    width: 577px;
+    height: 48px;
+    margin-top: 70px;
+    margin-bottom: 300px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    border: none;
+    background: none;
+
+    color: #0A3871;
+}
+
+.simbolo{
+    width: 10px;
+    display: inline-block
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+}
+
+.boton{
+
+    text-align: center;
+    padding: 24px;
+
+    background: #0A3871;
+    border-radius: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+    width: 280px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 19px;
+    text-decoration: none;
+    border: none;
+
+    color: #FFFFFF;
+}
+
+.boton:hover {
+    background-color: #5d84b4; 
+    color: white;
+  }
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    width: 300px;
+    height: 530px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    text-align: center;
+
+    
+}
+
+.muñeco{
+    width: 200px;
+}
+
+h5{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+
+    color: #343A40;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.texto2{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+    color: #495057;
+}
