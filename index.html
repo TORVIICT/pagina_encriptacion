@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="index.css">
+    <script src="/index.js"></script>
     <title>Encriptador Alura</title>
 </head>
 <body>
@@ -20,7 +21,7 @@
         <div class="main">
 
             <div>
-                <input type="text"  class="texto" value="Ingrese texto aqui">
+                <input type="text"  class="texto" value="Ingrese texto aqui" id="texto">
             </div>
 
             
@@ -34,14 +35,14 @@
                 <div>
                     <input type="submit" value="encriptar" class="boton">
 
-                    <input type="submit" value="descencriptar" class="boton">
+                    <input type="button" value="descencriptar" class="boton" onclick="descencriptar()">
                 </div>
          
             </div>
 
         </div>
 
-        <div class="contenido">
+        <div class="contenido" id="contenido">
 
             <div>
                 <img src="/src/Muñeco.svg" alt="muñeco" class="muñeco">
@@ -53,6 +54,8 @@
             </div>
           
         </div>
+
+    
 
     </div>
 
