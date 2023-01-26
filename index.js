@@ -1,27 +1,71 @@
-function descencriptar() {
+//texto introducido en una variable
+//funciones
+
+function pantalla(elemento) {
     
     var x = document.getElementById('contenido');
     if (x.style.display === 'none') {
       x.style.display = 'block';
     } else {
-        var texto = document.getElementById('texto').value;
+        var texto = elemento;
         x.innerHTML = texto;
     }
   };
-//
-function encriptar() {
+
+function encriptar(texto) {
 
     var texto = document.getElementById('texto').value;
+    var result = [];
+    var textoResult = ""
+      for (var i = 0; i< texto.length; i++) {
 
-    a=0
+            var caracter = texto.charAt(i);
+            
 
-    if (x=texto, a=0, x++ ){
+            if( caracter == "a" || caracter == "A") {
+              caracter = "ai";
+             };
+            if( caracter == "o" || caracter == "O") {
+              caracter = "ober";
+            };
+            if( caracter == "u" || caracter == "U") {
+              caracter = "ufat";
+            };
+            if( caracter == "i" || caracter == "I") {
+              caracter = "imes";
+            };
+            if( caracter == "e" || caracter == "E") {
+              caracter = "enter";
+            };
 
-        if (x = e){
-            x="enter"
-        }
+            result.push(caracter);
 
-    }
+            textoResult += result[i];
+            
+             };
+             
+             console.log(textoResult);
+             pantalla(textoResult);
+             
+       };
 
+function descencriptar (){
+
+  var texto = document.getElementById('texto').value;
+
+    for (i=0;i <1;i++){
+        texto = texto.replace(/enter/gi,"e");
+        texto = texto.replace(/ai/gi,"a");
+        texto = texto.replace(/imes/gi,"i");
+        texto = texto.replace(/ober/gi,"o");
+        texto = texto.replace(/ufat/gi,"u");
 
 }
+
+console.log(texto)
+pantalla(texto);
+  
+
+};
+
+    
