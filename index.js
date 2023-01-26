@@ -1,4 +1,4 @@
-//texto introducido en una variable
+//texto introdasducido en una variable
 //funciones
 
 function pantalla(elemento) {
