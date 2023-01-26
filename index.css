@@ -35,6 +35,9 @@ body{
 
     color: #0A3871;
 }
+.texto::placeholder{
+    color: #0A3871;
+}
 
 .simbolo{
     width: 10px;
