@@ -49,7 +49,7 @@ function encriptar(texto) {
              
        };
 
-function descencriptar (){
+function descencriptar(){
 
   var texto = document.getElementById('texto').value;
 
