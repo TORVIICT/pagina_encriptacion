@@ -128,8 +128,9 @@ h5{
 #boton_copiar{
 
     position: absolute;
-    left: 949px;
-    
+    left: 929px;
+    top: 535px;
+
 
     text-align: center;
     padding: 24px;
@@ -231,16 +232,6 @@ h5{
         margin: 0 40px 0 40px;
         justify-content: space-around;
     }
-    .parrafo1{
-        display: flex;
-        justify-content: flex-start;
-
-    }
-    .botones p{
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-    }
 
     .contenedor_copiar{
         margin-top: 0%;
@@ -252,6 +243,9 @@ h5{
     #boton_copiar{
         margin: 0%;
         bottom: 0%;
+        position: relative;
+        left: auto;
+        top: auto;
     }
 
     .boton{
