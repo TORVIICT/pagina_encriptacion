@@ -68,4 +68,11 @@ pantalla(texto);
 
 };
 
+
+//Funcion copiar
+function copiarAlPortapapeles() {
+  let textocopiado = document.getElementById('contenido');
+  navigator.clipboard.writeText(textocopiado.textContent);
+  
+}
     
