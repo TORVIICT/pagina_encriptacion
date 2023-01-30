@@ -127,17 +127,14 @@ h5{
 }
 #boton_copiar{
 
-    position: absolute;
-    left: 929px;
-    top: 535px;
-
+    position: relative;
 
     text-align: center;
     padding: 24px;
 
     background: #ffffff;
     border-radius: 24px;
-    margin: 4px 2px;
+    margin: 50px 2px;
     cursor: pointer;
     transition-duration: 0.4s;
     
