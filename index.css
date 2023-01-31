@@ -88,7 +88,7 @@ body{
     align-items: center;
     background: #FFFFFF;
     width: 300px;
-    height: 560px;
+    height: auto;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
     text-align: center;
@@ -159,6 +159,21 @@ h5{
     transition: 0.01s;
 }
 
+/*clases nuevas*/
+
+.cssInsertado{
+
+    
+    width: 270px;
+    /* Control de la altura con base en el texto del div*/
+    height: auto;
+    word-wrap: break-word;
+    margin-top: 20px;
+
+}
+
+
+
 /*RESPONSIVE*/
 
 /*TABLET 1*/
@@ -208,6 +223,8 @@ h5{
         justify-content:center;
 
     }
+
+
 
     #boton_copiar{
         margin-top: 50px;

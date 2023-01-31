@@ -2,7 +2,7 @@
 //funciones
 
 function pantalla(elemento) {
-    
+    document.getElementById('contenido').classList.add('cssInsertado');
     var x = document.getElementById('contenido');
     if (x.style.display === 'none') {
       x.style.display = 'block';
