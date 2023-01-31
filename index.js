@@ -2,7 +2,7 @@
 //funciones
 
 function pantalla(elemento) {
-    
+
     var x = document.getElementById('contenido');
     if (x.style.display === 'none') {
       x.style.display = 'block';
@@ -11,6 +11,11 @@ function pantalla(elemento) {
         x.innerHTML = texto;
     }
   };
+
+function cssInsertado() {
+  var estilo = document.getElementsByClassName('contenidoTexto')
+  estilo.classList.add('estiloInsertado');
+}
 
 function encriptar(texto) {
 
@@ -45,6 +50,7 @@ function encriptar(texto) {
              };
              
              console.log(textoResult);
+             cssInsertado();
              pantalla(textoResult);
              
        };
