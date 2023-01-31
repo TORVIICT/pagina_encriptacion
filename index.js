@@ -12,6 +12,11 @@ function pantalla(elemento) {
     }
   };
 
+function cssInsertado() {
+  var estilo = document.getElementsByClassName('contenidoTexto')
+  estilo.classList.add('estiloInsertado');
+}
+
 function encriptar(texto) {
 
     var texto = document.getElementById('texto').value;
@@ -45,6 +50,7 @@ function encriptar(texto) {
              };
              
              console.log(textoResult);
+             cssInsertado();
              pantalla(textoResult);
              
        };
