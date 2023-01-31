@@ -75,7 +75,7 @@ pantalla(texto);
 };
 
 
-//Funcion copiar
+//Funcion copiara
 function copiarAlPortapapeles() {
   let textocopiado = document.getElementById('contenido');
   navigator.clipboard.writeText(textocopiado.textContent);
