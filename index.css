@@ -214,18 +214,23 @@ h5{
 
     .contenidoTexto{
         width: 688px;
-        height: 133px;
+        height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
         margin: 64px 40px 40px 40px;
+
+
+
     }
     .contenidoTexto .contenido{
         display: flex;
+        width: auto;
         flex-direction: column;
         align-items: center;
         justify-content:center;
+        margin: 20px;
 
     }
 
@@ -260,7 +265,7 @@ h5{
     }
 
     #boton_copiar{
-        margin: 0%;
+        margin: 20px;
         bottom: 0%;
         position: relative;
         left: auto;
