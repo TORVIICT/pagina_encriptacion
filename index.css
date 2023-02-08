@@ -283,3 +283,331 @@ h5{
 
 
 }
+
+
+/*TABLET 2*/
+
+@media only screen and (max-width:768px) and (max-height:1384px){
+
+    body{
+        height: 100%;
+        width: 100%;
+    }
+
+    .container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container img{
+        margin-left: 40px;
+    }
+
+    .container .textoArea{
+        margin-left: 40px;
+        height: 600px;
+        font-size: 80px;
+    }
+
+    .textoArea #texto{
+
+        font-size: 32px;
+    }
+
+    .container .contenidoTexto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenidoTexto{
+        width: 688px;
+        height: auto;
+        display: flex;
+        font-size: 24px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 64px 40px 40px 40px;
+
+
+
+    }
+    .contenidoTexto .contenido{
+        display: flex;
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+        margin: 20px;
+
+    }
+
+
+
+    #boton_copiar{
+        margin-top: 50px;
+    }
+
+    .muñeco{
+        display: none;
+    }
+
+    .botones .contenedor_botones{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 16px;
+    }
+
+    .botones{
+        display: flex;
+        margin: 0 40px 0 40px;
+        justify-content: space-around;
+    }
+
+    .contenedor_copiar{
+        margin-top: 0%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #boton_copiar{
+        margin: 20px;
+        bottom: 0%;
+        position: relative;
+        left: auto;
+        top: auto;
+    }
+
+    .boton{
+        width: 322px;
+    }
+    
+    .main{
+        display: flex;
+
+    }
+}
+
+/*MOVIL 1*/
+
+@media only screen and (max-width:375px) and (max-height:933px){
+
+    body{
+        height: 100%;
+        width: 100%;
+    }
+
+    .container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 24px;
+    }
+
+    .container img{
+        width: 32px;
+        height:48px;
+        margin-left: 16px;
+    }
+
+    .container .textoArea{
+        margin-left: 0%;
+        margin: 0 16px 0 16px;
+        height: 299px;
+        font-size: 80px;
+    }
+
+
+    .textoArea #texto{
+
+        font-size: 16px;
+    }
+
+    .texto{
+        width: 343px;
+        height: 220px;
+    }
+
+    .container .simbolo{
+        width: 16px;
+        height: 16px;
+    }
+
+    .container .parrafo1{
+        font-size: 12px;
+    }
+
+    .container .contenidoTexto{
+        display: flex;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenidoTexto{
+        width: 327px;
+        height: auto;
+        display: flex;
+        font-size: 24px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 20px 24px 20px 24px;
+
+    }
+    .contenidoTexto #contenido{
+        display: flex;
+        height: auto;
+        width: 263px;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+        margin: 20px;
+
+
+    }
+
+
+    
+
+    #boton_copiar{
+        margin-top: 50px;
+    }
+
+    .muñeco{
+        display: none;
+    }
+
+    .botones .contenedor_botones{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 16px;
+    }
+
+    .botones{
+        display: flex;
+        margin: 0 16px 0 16px;
+        justify-content: space-around;
+    }
+
+    .contenedor_botones .boton{
+        padding: 24px;
+        width: 343px;
+        height: 67px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .contenedor_copiar{
+        margin-top: 0%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #boton_copiar{
+        margin: 20px;
+        bottom: 0%;
+        position: relative;
+        left: auto;
+        top: auto;
+    }
+
+    .main{
+        display: flex;
+    }
+}
+
+/*MOVIL 2*/
+
+@media only screen and (max-width:375px) and (max-height:1715px){
+
+    body{
+        height: 100%;
+        width: 100%;
+    }
+
+    .container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 24px;
+    }
+
+    .container img{
+        width: 30.43px;
+        height:46.18px;
+        margin-left: 16px;
+    }
+
+    .container .textoArea{
+        margin: 14px;
+        height: 624px;
+        font-size: 80px;
+    }
+
+
+    .textoArea #texto{
+
+        font-size: 32px;
+        margin: 0%;
+    }
+
+    #texto{
+        width: 343px;
+        margin: 0%;
+        height: 100%;
+    }
+
+    textarea #texto{
+        
+    }
+
+    .container .simbolo{
+        width: 16px;
+        height: 16px;
+    }
+
+    .container .parrafo1{
+        font-size: 12px;
+    }
+
+    .container .contenidoTexto{
+        display: flex;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenidoTexto{
+        width: 327px;
+        height: auto;
+        display: flex;
+        font-size: 24px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 20px 24px 20px 24px;
+
+    }
+    .contenidoTexto #contenido{
+        display: flex;
+        height: auto;
+        width: 263px;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+        margin: 20px;
+
+
+    }
+}
