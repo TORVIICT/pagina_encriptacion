@@ -163,8 +163,8 @@ h5{
 
 .cssInsertado{
 
-    
-    width: 270px;
+    display: flex;
+    width: auto;
     /* Control de la altura con base en el texto del div*/
     height: auto;
     word-wrap: break-word;
@@ -208,14 +208,15 @@ h5{
 
     .container .contenidoTexto{
         display: flex;
+        height: auto;
         justify-content: center;
         align-items: center;
     }
 
     .contenidoTexto{
+        display: flex;
         width: 688px;
         height: auto;
-        display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -233,7 +234,6 @@ h5{
         margin: 20px;
 
     }
-
 
 
     #boton_copiar{
@@ -281,9 +281,17 @@ h5{
 
     }
 
+    .cssInsertado{
 
+        display: flex;
+        width: auto;
+        /* Control de la altura con base en el texto del div*/
+        height: auto;
+        word-wrap: break-word;
+        margin-top: 20px;
+    
+    }
 }
-
 
 /*TABLET 2*/
 
@@ -345,8 +353,7 @@ h5{
 
     }
 
-
-
+    
     #boton_copiar{
         margin-top: 50px;
     }
@@ -387,10 +394,19 @@ h5{
         width: 322px;
     }
     
-    .main{
-        display: flex;
+    .main{display: flex;}
 
+    .cssInsertado{
+
+        display: flex;
+        width: auto;
+        /* Control de la altura con base en el texto del div*/
+        height: auto;
+        word-wrap: break-word;
+        margin-top: 20px;
+    
     }
+
 }
 
 /*MOVIL 1*/
@@ -473,9 +489,6 @@ h5{
 
     }
 
-
-    
-
     #boton_copiar{
         margin-top: 50px;
     }
@@ -524,11 +537,23 @@ h5{
     .main{
         display: flex;
     }
+
+    .cssInsertado{
+
+        display: flex;
+        width: auto;
+        /* Control de la altura con base en el texto del div*/
+        height: auto;
+        word-wrap: break-word;
+        margin-top: 20px;
+    
+    }
+
 }
 
 /*MOVIL 2*/
 
-@media only screen and (max-width:375px) and (max-height:1715px){
+@media only screen and (max-width:375px) and (min-height:1715px){
 
     body{
         height: 100%;
@@ -569,12 +594,27 @@ h5{
     }
 
     textarea #texto{
-        
+        height: 624px;
     }
 
     .container .simbolo{
         width: 16px;
         height: 16px;
+    }
+
+    .contenedor_botones{
+        display: flex;
+        height: flex;
+        gap: 16px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .boton{
+        width: 343px;
+        height: 67px;
+        border-radius: 24PX;
     }
 
     .container .parrafo1{
@@ -583,31 +623,44 @@ h5{
 
     .container .contenidoTexto{
         display: flex;
-        height: auto;
+        height: 595px;
         justify-content: center;
         align-items: center;
     }
 
     .contenidoTexto{
         width: 327px;
-        height: auto;
+        height: 595px;
         display: flex;
         font-size: 24px;
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin: 20px 24px 20px 24px;
+        margin: 64px 24px 20px 24px;
 
     }
+    
     .contenidoTexto #contenido{
         display: flex;
-        height: auto;
+        height: 595px;
         width: 263px;
         flex-direction: column;
         align-items: center;
         justify-content:center;
         margin: 20px;
-
-
     }
+
+    .muñeco{display: none;}
+
+    .cssInsertado{
+
+        display: flex;
+        width: auto;
+        /* Control de la altura con base en el texto del div*/
+        height: auto;
+        word-wrap: break-word;
+        margin-top: 20px;
+    
+    }
+
 }
