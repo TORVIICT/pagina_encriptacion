@@ -331,9 +331,9 @@ h5{
     }
 
     .contenidoTexto{
-        width: 688px;
-        height: auto;
         display: flex;
+        width: 688px;
+        height: 343px;
         font-size: 24px;
         justify-content: center;
         align-items: center;
